@@ -1,6 +1,6 @@
 body {
-    background-color: #fcfbfb;
-    font-family: Raleway, Arial, sans-serif;
+    background-color: whitesmoke;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -29,7 +29,7 @@ body {
 }
 
 .home-title {
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -81,13 +81,13 @@ body {
 nav a {
     padding: 35px;
     text-decoration: none;
-    color: #fcfbfb;
+    color: black;
     text-align: center;
-    padding: 35px;
 }
 
 .icon{
     padding-top: 10px;
+    width: 80px;
 }
 
 footer .social img{
@@ -109,4 +109,44 @@ footer .social img{
 
 main section img {
     box-sizing: border-box;
+}
+
+header{
+    background-color:rgba(20,30,13, .7) ;
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}  
+
+#hero-msg h1{
+    text-align: center;
+}
+
+#hero-msg h4{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+#background {
+    height: 725px;
+}
+
+footer p {
+    font-size: 1.2em;
+} 
+
+.logo{
+    width: 80px;
+    
 }
